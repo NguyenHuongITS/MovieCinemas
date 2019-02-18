@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="120dp"
+    android:layout_marginRight="20dp"
+    android:background="@drawable/gradiant_color_border">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="140dp"
+        android:background="@drawable/icon_master_card"/>
+    <TextView
+        android:layout_width="122dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="10dp"
+        android:textColor="@color/title"
+        android:id="@+id/txt_idCard"
+        android:text="id card" />
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="10dp"
+        android:textColor="@color/title"
+        android:id="@+id/txt_nameCard"
+        android:text="name card"
+        android:gravity="left"/>
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="97dp"
+        android:textSize="10dp"
+        android:textColor="@color/title"
+        android:id="@+id/txt_dateCard"
+        android:text="date"
+        android:gravity="right"/>
+
+
+</RelativeLayout>

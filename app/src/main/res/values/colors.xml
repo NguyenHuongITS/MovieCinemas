@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tablayout">#bbb8d1</color>
+    <color name="tablayoutselect">#ee4172</color>
+    <color name="selectedbanner">#ff4577</color>
+    <color name="unselectedbanner">#53526b</color>
+    <color name="backgroundbanner">#fff</color>
+    <color name="seeall">#938fb8</color>
+    <color name="title">#fff</color>
+    <color name="background">#150c29</color>
+    <color name="textcolor">#afadb7</color>
+</resources>

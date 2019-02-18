@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    android:orientation="vertical"
+    tools:context=".View.Activity.MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/view_paper_main"
+        android:background="@drawable/gradiant_background_color"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </android.support.v4.view.ViewPager>
+
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="556dp"
+        android:background="@drawable/gradiant_background_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:tabGravity="fill"
+        app:tabSelectedTextColor="#ee4172"
+        app:tabMode="fixed"
+        app:tabTextColor="#5a5478"
+        app:tabPaddingTop="2dp"
+        app:tabTextAppearance="@style/MyCustomTextAppearance"
+        android:id="@+id/tab_layout"
+        android:gravity="start" />
+
+</RelativeLayout>
